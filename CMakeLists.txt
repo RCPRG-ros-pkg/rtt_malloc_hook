@@ -11,8 +11,8 @@ find_package(catkin REQUIRED COMPONENTS
 
 find_package(yaml-cpp REQUIRED)
 
-find_package(OROCOS-RTT REQUIRED COMPONENTS rtt-scripting rtt-transport-corba)
-include(${OROCOS-RTT_USE_FILE_PATH}/UseOROCOS-RTT.cmake )
+#find_package(OROCOS-RTT REQUIRED COMPONENTS rtt-scripting rtt-transport-corba)
+#include(${OROCOS-RTT_USE_FILE_PATH}/UseOROCOS-RTT.cmake )
 
 include_directories(${catkin_INCLUDE_DIRS})
 
